@@ -12,7 +12,7 @@
 ## 一、源可用性状态
 
 <!-- STATUS_START -->
-> 🔄 最近更新：2026-11-02 13:46:13（北京时间） · 成功 **27/35** 个源
+> 🔄 最近更新：2026-11-02 13:55:56（北京时间） · 成功 **27/35** 个源
 
 | 配置源 | 状态 | 使用地址 |
 | --- | --- | --- |
@@ -47,8 +47,8 @@
 | GitLab 多仓（推荐） | ✅ 成功 | `https://gitlab.com/noimank/tvbox/-/raw/main/tvboxmuti.json` |
 | 无邪多仓（推荐） | ✅ 成功 | `https://gh-proxy.com/https://raw.githubusercontent.com/wxrjck/-YSC-/main/jh.txt` |
 | 艾丝沐 | ❌ 失败 | Expecting value: line 1 column 1 (char 0) |
-| 应用多多 | ❌ 失败 | 429 Client Error: Too Many Requests for url: https://jihu... |
-| 凯弟多仓 | 📦 缓存 | 上次成功配置（本次更新未抓到，沿用缓存） |
+| 应用多多 | ❌ 失败 | 返回内容不是 TVBox 配置（缺少 sites/spiders/lives 或 urls 字段） |
+| 凯弟多仓 | ✅ 成功 | `https://jihulab.com/jyqhkd1/jk/-/raw/main/8.json` |
 | z.qiqiv.cn | ✅ 成功 | `http://z.qiqiv.cn/123` |
 | dxawi | ✅ 成功 | `https://dxawi.github.io/0/0.json` |
 <!-- STATUS_END -->

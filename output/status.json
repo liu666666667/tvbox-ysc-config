@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02 13:46:13",
+  "updated_at": "2026-11-02 13:55:56",
   "repo": "liu666666667/tvbox-ysc-config",
   "sources": [
     {
@@ -225,15 +225,14 @@
       "name": "应用多多",
       "ok": false,
       "used_url": null,
-      "error": "429 Client Error: Too Many Requests for url: https://jihulab.com/duomv/apps/-/raw/main/fast.json"
+      "error": "返回内容不是 TVBox 配置（缺少 sites/spiders/lives 或 urls 字段）"
     },
     {
       "id": "kaidi",
       "name": "凯弟多仓",
       "ok": true,
-      "used_url": "(缓存)",
-      "error": "429 Client Error: Too Many Requests for url: https://jihulab.com/jyqhkd1/jk/-/raw/main/8.json",
-      "cached": true
+      "used_url": "https://jihulab.com/jyqhkd1/jk/-/raw/main/8.json",
+      "error": null
     },
     {
       "id": "zqiqiv",
