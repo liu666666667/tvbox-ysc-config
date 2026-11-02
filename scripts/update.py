@@ -234,9 +234,6 @@ def merge_configs(fetched):
     for k, v in base.items():
         if k not in skip:
             merged[k] = v
-    merged["warningText"] = (
-        f"本配置由 {len(fetched)} 个公开源自动聚合（含{base_name}等），仅供学习交流，请勿商用"
-    )
 
     seen_keys = set()
     sites = []
