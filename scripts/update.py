@@ -26,7 +26,19 @@ import time
 import urllib.parse
 
 import requests
-
+# ===== 自定义过滤规则（会合并进最终产物） =====
+CUSTOM_RULES = [
+    {
+        "name": "我的广告过滤",
+        "hosts": ["*"],
+        "regex": [
+            "澳门1",
+            "广告关键词2",
+            "更多推荐",
+            "最新地址"
+        ]
+    }
+]
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONFIG_FILE = os.path.join(ROOT, "config", "sources.json")
 OUTPUT_DIR = os.path.join(ROOT, "output")
@@ -213,7 +225,23 @@ def merge_configs(fetched):
 
     for field in ("lives", "parses", "doh", "rules", "flags", "exts"):
         merged[field] = _merge_list(fetched, field)
+ # 追加自定义规则（按 name/hosts/regex 去重）
+    merged.setdefault("rules", [])
+    if not isinstance(merged["rules"], list):
+        merged["rules"] = []
 
+    def _rule_fp(r):
+        return json.dumps({
+            "name": r.get("name", ""),
+            "hosts": sorted(r.get("hosts", [])),
+            "regex": sorted(r.get("regex", [])),
+        }, ensure_ascii=False, sort_keys=True)
+
+    _seen = {_rule_fp(r) for r in merged["rules"] if isinstance(r, dict)}
+    for _r in CUSTOM_RULES:
+        if isinstance(_r, dict) and _rule_fp(_r) not in _seen:
+            merged["rules"].append(_r)
+            _seen.add(_rule_fp(_r))
     return merged
 
 
