@@ -12,7 +12,7 @@
 ## 一、源可用性状态
 
 <!-- STATUS_START -->
-> 🔄 最近更新：2026-11-02 10:56:56（北京时间） · 成功 **27/35** 个源
+> 🔄 最近更新：2026-11-02 11:32:29（北京时间） · 成功 **27/36** 个源
 
 | 配置源 | 状态 | 使用地址 |
 | --- | --- | --- |
@@ -51,6 +51,7 @@
 | 凯弟多仓 | ✅ 成功 | `https://jihulab.com/jyqhkd1/jk/-/raw/main/8.json` |
 | z.qiqiv.cn | ✅ 成功 | `http://z.qiqiv.cn/123` |
 | dxawi | ✅ 成功 | `https://dxawi.github.io/0/0.json` |
+| 自定义广告过滤 | ❌ 失败 | 返回内容不是 TVBox 配置（缺少 sites/spiders/lives 或 urls 字段） |
 <!-- STATUS_END -->
 
 ## 二、仓库结构

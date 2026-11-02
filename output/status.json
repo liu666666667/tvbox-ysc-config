@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02 10:56:56",
+  "updated_at": "2026-11-02 11:32:29",
   "repo": "liu666666667/tvbox-ysc-config",
   "sources": [
     {
@@ -247,6 +247,13 @@
       "ok": true,
       "used_url": "https://dxawi.github.io/0/0.json",
       "error": null
+    },
+    {
+      "id": "zidingyiguolv",
+      "name": "自定义广告过滤",
+      "ok": false,
+      "used_url": null,
+      "error": "返回内容不是 TVBox 配置（缺少 sites/spiders/lives 或 urls 字段）"
     }
   ]
 }
