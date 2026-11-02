@@ -262,14 +262,7 @@
       "urls": [
         "https://dxawi.github.io/0/0.json"
       ]  
-    },   
-      {
-      "id": "zidingyiguolv",
-      "name": "自定义广告过滤",
-      "urls": [
-        "https://gh-proxy.com/https://raw.githubusercontent.com/liu666666667/tvbox-ysc-config/refs/heads/main/output/rules.json"
-      ]
-      } 
+    }
     
   ]
 }
