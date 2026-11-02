@@ -1,6 +1,22 @@
 {
   "urls": [
     {
+      "name": "X4更新专用接口",
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/liu666666667/tvbox-ysc-config/main/output/x4_update.json"
+    },
+    {
+      "name": "X4菠菜pro",
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/liu666666667/tvbox-ysc-config/main/output/x4_pro.json"
+    },
+    {
+      "name": "X4菠菜园",
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/liu666666667/tvbox-ysc-config/main/output/x4_yuan.json"
+    },
+    {
+      "name": "X4少儿频道",
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/liu666666667/tvbox-ysc-config/main/output/x4_kids.json"
+    },
+    {
       "name": "肥猫",
       "url": "https://gh-proxy.org/https://raw.githubusercontent.com/liu666666667/tvbox-ysc-config/main/output/feimao.json"
     },
@@ -22,11 +38,15 @@
     },
     {
       "name": "4K小盒子",
-      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/liu666666667/tvbox-ysc-config/main/output/4k.json"
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/liu666666667/tvbox-ysc-config/main/output/4k_xiaohezi.json"
     },
     {
       "name": "小盒子单仓",
-      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/liu666666667/tvbox-ysc-config/main/output/xiaohezi.json"
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/liu666666667/tvbox-ysc-config/main/output/xiaohezi_dancang.json"
+    },
+    {
+      "name": "小盒子多仓",
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/liu666666667/tvbox-ysc-config/main/output/xiaohezi_duocang.json"
     },
     {
       "name": "拾光多仓",
@@ -35,6 +55,58 @@
     {
       "name": "挺好分享多仓",
       "url": "https://gh-proxy.org/https://raw.githubusercontent.com/liu666666667/tvbox-ysc-config/main/output/tinghao.json"
+    },
+    {
+      "name": "小鱼干",
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/liu666666667/tvbox-ysc-config/main/output/xiaoyugan.json"
+    },
+    {
+      "name": "香雅情",
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/liu666666667/tvbox-ysc-config/main/output/xiangyaqing.json"
+    },
+    {
+      "name": "无邪",
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/liu666666667/tvbox-ysc-config/main/output/wuxie.json"
+    },
+    {
+      "name": "分享者",
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/liu666666667/tvbox-ysc-config/main/output/fenxiangzhe.json"
+    },
+    {
+      "name": "高天流云",
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/liu666666667/tvbox-ysc-config/main/output/gaotianliuyun.json"
+    },
+    {
+      "name": "俊佬",
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/liu666666667/tvbox-ysc-config/main/output/junlao.json"
+    },
+    {
+      "name": "fastly-jsdelivr",
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/liu666666667/tvbox-ysc-config/main/output/fastly_jsdelivr.json"
+    },
+    {
+      "name": "嗷呜",
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/liu666666667/tvbox-ysc-config/main/output/aowu.json"
+    },
+    {
+      "name": "GitLab 多仓（推荐）",
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/liu666666667/tvbox-ysc-config/main/output/gitlab_multi.json"
+    },
+    {
+      "name": "无邪多仓（推荐）",
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/liu666666667/tvbox-ysc-config/main/output/wuxie_multi.json"
+    },
+    {
+      "name": "凯弟多仓",
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/liu666666667/tvbox-ysc-config/main/output/kaidi.json"
+    },
+    {
+      "name": "z.qiqiv.cn",
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/liu666666667/tvbox-ysc-config/main/output/zqiqiv.json"
+    },
+    {
+      "name": "dxawi",
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/liu666666667/tvbox-ysc-config/main/output/dxawi.json"
     }
   ]
 }

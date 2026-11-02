@@ -12,20 +12,45 @@
 ## 一、源可用性状态
 
 <!-- STATUS_START -->
-> 🔄 最近更新：2026-11-02 02:44:33（北京时间） · 成功 **9/10** 个源
+> 🔄 最近更新：2026-11-02 10:45:55（北京时间） · 成功 **27/35** 个源
 
 | 配置源 | 状态 | 使用地址 |
 | --- | --- | --- |
+| X4更新专用接口 | ✅ 成功 | `https://0.12yue.de5.net/0/666` |
+| X4菠菜pro | ✅ 成功 | `https://0.12yue.de5.net/5/x4pro.json` |
+| X4菠菜园 | ✅ 成功 | `https://0.12yue.de5.net/5/x4.json` |
+| X4少儿频道 | ✅ 成功 | `https://0.12yue.de5.net/5/tv少儿.json` |
 | 肥猫 | ✅ 成功 | `http://肥猫.net/tv` |
-| 饭太硬 | ❌ 失败 | HTTPConnectionPool(host='www.xn--sss604efuw.xyz', port=80... |
+| 饭太硬 | ❌ 失败 | Expecting value: line 1 column 1 (char 0) |
 | 王二小 | ✅ 成功 | `https://d.kstore.dev/download/9280/wex.json` |
 | 老刘备 | ✅ 成功 | `https://raw.liucn.cc/box/m.json` |
 | 小马 | ✅ 成功 | `https://szyyds.cn/tv/x.json` |
 | 讴歌 | 📦 缓存 | 上次成功配置（本次更新未抓到，沿用缓存） |
 | 4K小盒子 | ✅ 成功 | `http://xhztv.top/4k.json` |
 | 小盒子单仓 | ✅ 成功 | `http://xhztv.top/xhz` |
-| 拾光多仓 | 📦 缓存 | 上次成功配置（本次更新未抓到，沿用缓存） |
+| 小盒子多仓 | ✅ 成功 | `http://xhztv.top/dc` |
+| 拾光多仓 | ✅ 成功 | `http://xmbjm.fh4u.org/dc.txt` |
 | 挺好分享多仓 | ✅ 成功 | `http://ztha.top/TVBox/GYCK.json` |
+| 小鱼干 | ✅ 成功 | `http://xhztv.top/dc/小鱼干/api.json` |
+| 网络接口 | ❌ 失败 | Expecting value: line 1 column 1 (char 0) |
+| 虎斑 | ❌ 失败 | Expecting value: line 1 column 1 (char 0) |
+| 东篱 | ❌ 失败 | 返回内容不是 TVBox 配置（缺少 sites/spiders/lives 或 urls 字段） |
+| 香雅情 | ✅ 成功 | `https://gh-proxy.com/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json` |
+| 天微多仓 | ❌ 失败 | 404 Client Error: Not Found for url: https://tvkj.top/DC.txt |
+| 无邪 | ✅ 成功 | `https://gh-proxy.com/https://raw.githubusercontent.com/wxrjck/-YSC-/main/yx.txt` |
+| 分享者 | ✅ 成功 | `https://ghproxy.net/https://raw.githubusercontent.com/maoystv/6/main/001.json` |
+| 高天流云 | ✅ 成功 | `https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json` |
+| 俊佬 | ✅ 成功 | `http://home.jundie.top:81/top98.json` |
+| fastly-jsdelivr | ✅ 成功 | `https://fastly.jsdelivr.net/gh/liu673cn/box@main/m.json` |
+| pastebin | ❌ 失败 | Expecting value: line 29 column 1 (char 2947) |
+| 嗷呜 | ✅ 成功 | `https://9763.kstore.vip/aowu.json` |
+| GitLab 多仓（推荐） | ✅ 成功 | `https://gitlab.com/noimank/tvbox/-/raw/main/tvboxmuti.json` |
+| 无邪多仓（推荐） | ✅ 成功 | `https://gh-proxy.com/https://raw.githubusercontent.com/wxrjck/-YSC-/main/jh.txt` |
+| 艾丝沐 | ❌ 失败 | Expecting value: line 1 column 1 (char 0) |
+| 应用多多 | ❌ 失败 | 返回内容不是 TVBox 配置（缺少 sites/spiders/lives 或 urls 字段） |
+| 凯弟多仓 | ✅ 成功 | `https://jihulab.com/jyqhkd1/jk/-/raw/main/8.json` |
+| z.qiqiv.cn | ✅ 成功 | `http://z.qiqiv.cn/123` |
+| dxawi | ✅ 成功 | `https://dxawi.github.io/0/0.json` |
 <!-- STATUS_END -->
 
 ## 二、仓库结构
