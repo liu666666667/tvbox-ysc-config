@@ -1,7 +1,35 @@
 {
-  "description": "影视仓 / TVBox 配置源列表（2026-10 更新）：替换失效域名，保留肥猫、饭太硬、王二小、老刘备、小马、讴歌、4K小盒子、小盒子单仓、拾光多仓、挺好分享多仓等公开接口",
+  "description": "影视仓 / TVBox 配置源列表（合并去重版）：包含 X4、肥猫、饭太硬、王二小、老刘备、小马、讴歌、4K小盒子、小盒子单仓/多仓、拾光多仓、挺好分享多仓、嗷呜、GitLab 多仓、无邪多仓等公开接口",
   "update_interval_hours": 12,
   "sources": [
+    {
+      "id": "x4_update",
+      "name": "X4更新专用接口",
+      "urls": [
+        "https://0.12yue.de5.net/0/666"
+      ]
+    },
+    {
+      "id": "x4_pro",
+      "name": "X4菠菜pro",
+      "urls": [
+        "https://0.12yue.de5.net/5/x4pro.json"
+      ]
+    },
+    {
+      "id": "x4_yuan",
+      "name": "X4菠菜园",
+      "urls": [
+        "https://0.12yue.de5.net/5/x4.json"
+      ]
+    },
+    {
+      "id": "x4_kids",
+      "name": "X4少儿频道",
+      "urls": [
+        "https://0.12yue.de5.net/5/tv少儿.json"
+      ]
+    },
     {
       "id": "feimao",
       "name": "肥猫",
@@ -17,7 +45,11 @@
       "urls": [
         "http://www.饭太硬.net/tv",
         "http://www.饭太硬.cc/tv",
-        "http://www.饭太硬.xyz/tv"
+        "http://www.饭太硬.xyz/tv",
+        "http://www.饭太硬.art/tv",
+        "http://fty.xxooo.cf/tv",
+        "http://fty.888484.xyz/tv",
+        "http://fty.333232.xyz/tv"
       ]
     },
     {
@@ -26,7 +58,10 @@
       "urls": [
         "https://d.kstore.dev/download/9280/wex.json",
         "https://9280.kstore.vip/newwex.json",
-        "http://new.王二小放牛娃.top"
+        "http://new.王二小放牛娃.top",
+        "https://9280.kstore.vip/aiwex.json",
+        "https://9280.kstore.space/aiwex.json",
+        "http://tvbox.王二小放牛娃.top"
       ]
     },
     {
@@ -52,18 +87,24 @@
       ]
     },
     {
-      "id": "4k",
+      "id": "4k_xiaohezi",
       "name": "4K小盒子",
       "urls": [
-        "http://xhztv.top/4k.json",
+        "http://xhztv.top/4k.json"
+      ]
+    },
+    {
+      "id": "xiaohezi_dancang",
+      "name": "小盒子单仓",
+      "urls": [
         "http://xhztv.top/xhz"
       ]
     },
     {
-      "id": "xiaohezi",
-      "name": "小盒子单仓",
+      "id": "xiaohezi_duocang",
+      "name": "小盒子多仓",
       "urls": [
-        "http://xhztv.top/xhz"
+        "http://xhztv.top/dc"
       ]
     },
     {
@@ -78,6 +119,148 @@
       "name": "挺好分享多仓",
       "urls": [
         "http://ztha.top/TVBox/GYCK.json"
+      ]
+    },
+    {
+      "id": "xiaoyugan",
+      "name": "小鱼干",
+      "urls": [
+        "http://xhztv.top/dc/小鱼干/api.json"
+      ]
+    },
+    {
+      "id": "wangluo",
+      "name": "网络接口",
+      "urls": [
+        "https://8815.kstore.vip/tvbox/wmz"
+      ]
+    },
+    {
+      "id": "huban",
+      "name": "虎斑",
+      "urls": [
+        "http://hb.小虎斑.site:25252/仅供测试"
+      ]
+    },
+    {
+      "id": "dongli",
+      "name": "东篱",
+      "urls": [
+        "https://16151.kstore.space"
+      ]
+    },
+    {
+      "id": "xiangyaqing",
+      "name": "香雅情",
+      "urls": [
+        "https://gh-proxy.com/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json"
+      ]
+    },
+    {
+      "id": "tianwei",
+      "name": "天微多仓",
+      "urls": [
+        "https://tvkj.top/DC.txt"
+      ]
+    },
+    {
+      "id": "wuxie",
+      "name": "无邪",
+      "urls": [
+        "https://gh-proxy.com/https://raw.githubusercontent.com/wxrjck/-YSC-/main/yx.txt"
+      ]
+    },
+    {
+      "id": "fenxiangzhe",
+      "name": "分享者",
+      "urls": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/maoystv/6/main/001.json"
+      ]
+    },
+    {
+      "id": "gaotianliuyun",
+      "name": "高天流云",
+      "urls": [
+        "https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json"
+      ]
+    },
+    {
+      "id": "junlao",
+      "name": "俊佬",
+      "urls": [
+        "http://home.jundie.top:81/top98.json"
+      ]
+    },
+    {
+      "id": "fastly_jsdelivr",
+      "name": "fastly-jsdelivr",
+      "urls": [
+        "https://fastly.jsdelivr.net/gh/liu673cn/box@main/m.json"
+      ]
+    },
+    {
+      "id": "pastebin",
+      "name": "pastebin",
+      "urls": [
+        "https://pastebin.com/raw/gtbKvnE1"
+      ]
+    },
+    {
+      "id": "aowu",
+      "name": "嗷呜",
+      "urls": [
+        "http://www.英格里希嗷呜.top/tv",
+        "https://9763.kstore.vip/aowu.json",
+        "http://itv666.cc/aowu/config.webp"
+      ]
+    },
+    {
+      "id": "gitlab_multi",
+      "name": "GitLab 多仓（推荐）",
+      "urls": [
+        "https://gitlab.com/noimank/tvbox/-/raw/main/tvboxmuti.json"
+      ]
+    },
+    {
+      "id": "wuxie_multi",
+      "name": "无邪多仓（推荐）",
+      "urls": [
+        "https://gh-proxy.com/https://raw.githubusercontent.com/wxrjck/-YSC-/main/jh.txt"
+      ]
+    },
+    {
+      "id": "aisimu",
+      "name": "艾丝沐",
+      "urls": [
+        "http://tv.aisimu.cn/tv/all.json"
+      ]
+    },
+    {
+      "id": "yingyongduoduo",
+      "name": "应用多多",
+      "urls": [
+        "https://jihulab.com/duomv/apps/-/raw/main/fast.json"
+      ]
+    },
+    {
+      "id": "kaidi",
+      "name": "凯弟多仓",
+      "urls": [
+        "https://jihulab.com/jyqhkd1/jk/-/raw/main/8.json"
+      ]
+    },
+    {
+      "id": "zqiqiv",
+      "name": "z.qiqiv.cn",
+      "urls": [
+        "http://z.qiqiv.cn/123"
+      ]
+    },
+    {
+      "id": "dxawi",
+      "name": "dxawi",
+      "urls": [
+        "https://dxawi.github.io/0/0.json"
       ]
     }
   ]
