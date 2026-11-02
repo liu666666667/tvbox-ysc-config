@@ -12,7 +12,7 @@
 ## 一、源可用性状态
 
 <!-- STATUS_START -->
-> 🔄 最近更新：2026-11-02 16:49:40（北京时间） · 成功 **27/35** 个源
+> 🔄 最近更新：2026-11-03 06:37:05（北京时间） · 成功 **27/35** 个源
 
 | 配置源 | 状态 | 使用地址 |
 | --- | --- | --- |
@@ -20,7 +20,7 @@
 | X4菠菜pro | ✅ 成功 | `https://0.12yue.de5.net/5/x4pro.json` |
 | X4菠菜园 | ✅ 成功 | `https://0.12yue.de5.net/5/x4.json` |
 | X4少儿频道 | ✅ 成功 | `https://0.12yue.de5.net/5/tv少儿.json` |
-| 肥猫 | ✅ 成功 | `http://肥猫.net/tv` |
+| 肥猫 | 📦 缓存 | 上次成功配置（本次更新未抓到，沿用缓存） |
 | 饭太硬 | ❌ 失败 | Expecting value: line 1 column 1 (char 0) |
 | 王二小 | ✅ 成功 | `https://d.kstore.dev/download/9280/wex.json` |
 | 老刘备 | ✅ 成功 | `https://raw.liucn.cc/box/m.json` |
