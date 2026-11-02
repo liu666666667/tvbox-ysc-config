@@ -26,22 +26,57 @@ import time
 import urllib.parse
 
 import requests
-# ===== 自定义过滤规则（会合并进最终产物） =====
-CUSTOM_RULES = [
-    {
-        "name": "我的广告过滤",
-        "hosts": ["*"],
-        "regex": [
-            "澳门1",
-            "广告关键词2",
-            "更多推荐",
-            "最新地址"
-        ]
-    }
-]
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONFIG_FILE = os.path.join(ROOT, "config", "sources.json")
+RULES_FILE = os.path.join(ROOT, "config", "custom_rules.txt")
 OUTPUT_DIR = os.path.join(ROOT, "output")
+
+
+def load_custom_rules():
+    """从 config/custom_rules.txt 读取自定义过滤规则。
+
+    文件格式：
+        # 注释行以 # 开头，空行忽略
+        [规则名]          开始一条新规则
+        hosts=xxx,yyy     该规则生效的 host，多个用逗号分隔，* 表示全部
+        其余每行           一个关键词（regex）
+    """
+    if not os.path.exists(RULES_FILE):
+        return []
+
+    rules = []
+    current = None
+    with open(RULES_FILE, "r", encoding="utf-8") as f:
+        for raw in f:
+            s = raw.strip()
+            if not s or s.startswith("#"):
+                continue
+
+            # [规则名]
+            if s.startswith("[") and s.endswith("]"):
+                if current and current["regex"]:
+                    rules.append(current)
+                current = {"name": s[1:-1].strip(), "hosts": ["*"], "regex": []}
+                continue
+
+            if current is None:
+                continue
+
+            # hosts=xxx,yyy
+            low = s.lower()
+            if low.startswith("hosts=") or low.startswith("hosts:"):
+                val = s.split("=", 1)[1] if "=" in s else s.split(":", 1)[1]
+                current["hosts"] = [h.strip() for h in val.split(",") if h.strip()]
+                continue
+
+            # 普通行 = 关键词
+            current["regex"].append(s)
+
+    if current and current["regex"]:
+        rules.append(current)
+    return rules
+
 
 DEFAULT_REPO = "YOUR_USERNAME/tvbox-ysc-config"  # 本地运行时的占位仓库名，GitHub Actions 会自动覆盖
 
@@ -188,6 +223,7 @@ def merge_configs(fetched):
     - 以第一个成功源为基底（保留 spider/logo/wallpaper 等）
     - sites 按 key 去重，重复 key 加源 id 前缀
     - lives/parses/doh/rules/flags/exts 等列表合并去重
+    - 最后追加 config/custom_rules.txt 里的自定义规则
     fetched: [(sid, name, data_dict), ...]
     """
     if not fetched:
@@ -225,7 +261,8 @@ def merge_configs(fetched):
 
     for field in ("lives", "parses", "doh", "rules", "flags", "exts"):
         merged[field] = _merge_list(fetched, field)
- # 追加自定义规则（按 name/hosts/regex 去重）
+
+    # 追加自定义规则（从 config/custom_rules.txt 读取，按 name/hosts/regex 去重）
     merged.setdefault("rules", [])
     if not isinstance(merged["rules"], list):
         merged["rules"] = []
@@ -238,10 +275,11 @@ def merge_configs(fetched):
         }, ensure_ascii=False, sort_keys=True)
 
     _seen = {_rule_fp(r) for r in merged["rules"] if isinstance(r, dict)}
-    for _r in CUSTOM_RULES:
+    for _r in load_custom_rules():
         if isinstance(_r, dict) and _rule_fp(_r) not in _seen:
             merged["rules"].append(_r)
             _seen.add(_rule_fp(_r))
+
     return merged
 
 
