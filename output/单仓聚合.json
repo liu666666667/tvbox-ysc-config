@@ -27209,6 +27209,18 @@
       "rule": [
         "http((?!http).){12,}?\\.(m3u8|mp4|flv|avi|mkv|rm|wmv|mpg|m4a)\\?.*|http((?!http).){12,}\\.(m3u8|mp4|flv|avi|mkv|rm|wmv|mpg|m4a)|http((?!http).)*?xg.php\\?id=|http((?!http).)*?/m3/(.*)\\.css"
       ]
+    },
+    {
+      "name": "我的广告过滤",
+      "hosts": [
+        "*"
+      ],
+      "regex": [
+        "澳门1",
+        "广告关键词2",
+        "更多推荐",
+        "最新地址"
+      ]
     }
   ],
   "flags": [
