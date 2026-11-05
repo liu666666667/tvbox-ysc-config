@@ -36,7 +36,8 @@
       "urls": [
         "http://肥猫.net/tv",
         "http://肥猫.com/",
-        "https://6296.kstore.vip/facat.json"
+        "https://6296.kstore.vip/facat.json",
+        "http://肥猫.net/"
       ]
     },
     {
@@ -49,7 +50,8 @@
         "http://www.饭太硬.art/tv",
         "http://fty.xxooo.cf/tv",
         "http://fty.888484.xyz/tv",
-        "http://fty.333232.xyz/tv"
+        "http://fty.333232.xyz/tv",
+        "https://www.饭太硬.cc"
       ]
     },
     {
@@ -61,7 +63,8 @@
         "http://new.王二小放牛娃.top",
         "https://9280.kstore.vip/aiwex.json",
         "https://9280.kstore.space/aiwex.json",
-        "http://tvbox.王二小放牛娃.top"
+        "http://tvbox.王二小放牛娃.top",
+        "https://www.王二小放牛娃.top"
       ]
     },
     {
@@ -261,8 +264,49 @@
       "name": "dxawi",
       "urls": [
         "https://dxawi.github.io/0/0.json"
-      ]  
+      ]
+    },
+    {
+      "id": "zhuiju_2ee238bf",
+      "name": "摸鱼儿",
+      "urls": [
+        "https://www.y456y.com"
+      ]
+    },
+    {
+      "id": "zhuiju_0a3780c6",
+      "name": "创享影视",
+      "urls": [
+        "https://ys.cxkjg.cn/api/provide/tvbox"
+      ]
+    },
+    {
+      "id": "zhuiju_6ee3abaf",
+      "name": "影仓",
+      "urls": [
+        "https://124.71.19.220/"
+      ]
+    },
+    {
+      "id": "zhuiju_8236b8ce",
+      "name": "伦理接口",
+      "urls": [
+        "http://47.96.82.41:5188/rose/18/xgg.json"
+      ]
+    },
+    {
+      "id": "zhuiju_b77cb2f3",
+      "name": "无名",
+      "urls": [
+        "https://6800.kstore.vip/fish.json"
+      ]
+    },
+    {
+      "id": "zhuiju_c924d24a",
+      "name": "小盒子",
+      "urls": [
+        "https://www.xhztv.pro/"
+      ]
     }
-    
   ]
 }
