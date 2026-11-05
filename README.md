@@ -12,7 +12,7 @@
 ## 一、源可用性状态
 
 <!-- STATUS_START -->
-> 🔄 最近更新：2026-11-05 04:42:09（北京时间） · 成功 **27/35** 个源
+> 🔄 最近更新：2026-11-05 11:34:24（北京时间） · 成功 **30/41** 个源
 
 | 配置源 | 状态 | 使用地址 |
 | --- | --- | --- |
@@ -29,7 +29,7 @@
 | 4K小盒子 | ✅ 成功 | `http://xhztv.top/4k.json` |
 | 小盒子单仓 | ✅ 成功 | `http://xhztv.top/xhz` |
 | 小盒子多仓 | ✅ 成功 | `http://xhztv.top/dc` |
-| 拾光多仓 | ✅ 成功 | `http://xmbjm.fh4u.org/dc.txt` |
+| 拾光多仓 | 📦 缓存 | 上次成功配置（本次更新未抓到，沿用缓存） |
 | 挺好分享多仓 | ✅ 成功 | `http://ztha.top/TVBox/GYCK.json` |
 | 小鱼干 | ✅ 成功 | `http://xhztv.top/dc/小鱼干/api.json` |
 | 网络接口 | ❌ 失败 | Expecting value: line 1 column 1 (char 0) |
@@ -51,6 +51,12 @@
 | 凯弟多仓 | ✅ 成功 | `https://jihulab.com/jyqhkd1/jk/-/raw/main/8.json` |
 | z.qiqiv.cn | ✅ 成功 | `http://z.qiqiv.cn/123` |
 | dxawi | ✅ 成功 | `https://dxawi.github.io/0/0.json` |
+| 摸鱼儿 | ❌ 失败 | Expecting value: line 1 column 1 (char 0) |
+| 创享影视 | ✅ 成功 | `https://ys.cxkjg.cn/api/provide/tvbox` |
+| 影仓 | ❌ 失败 | Expecting value: line 1 column 1 (char 0) |
+| 伦理接口 | ✅ 成功 | `http://47.96.82.41:5188/rose/18/xgg.json` |
+| 无名 | ✅ 成功 | `https://6800.kstore.vip/fish.json` |
+| 小盒子 | ❌ 失败 | Expecting value: line 1 column 1 (char 0) |
 <!-- STATUS_END -->
 
 ## 二、仓库结构

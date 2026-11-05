@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05 04:42:09",
+  "updated_at": "2026-11-05 11:34:24",
   "repo": "liu666666667/tvbox-ysc-config",
   "sources": [
     {
@@ -35,7 +35,7 @@
       "name": "肥猫",
       "ok": true,
       "used_url": "(缓存)",
-      "error": "401 Client Error:  for url: https://6296.kstore.vip/facat.json",
+      "error": "(\"Connection broken: ConnectionResetError(104, 'Connection reset by peer')\", ConnectionResetError(104, 'Connection reset by peer'))",
       "cached": true
     },
     {
@@ -99,8 +99,9 @@
       "id": "shiguang",
       "name": "拾光多仓",
       "ok": true,
-      "used_url": "http://xmbjm.fh4u.org/dc.txt",
-      "error": null
+      "used_url": "(缓存)",
+      "error": "502 Server Error: Bad Gateway for url: http://xmbjm.fh4u.org/dc.txt",
+      "cached": true
     },
     {
       "id": "tinghao",
@@ -248,6 +249,48 @@
       "ok": true,
       "used_url": "https://dxawi.github.io/0/0.json",
       "error": null
+    },
+    {
+      "id": "zhuiju_2ee238bf",
+      "name": "摸鱼儿",
+      "ok": false,
+      "used_url": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "id": "zhuiju_0a3780c6",
+      "name": "创享影视",
+      "ok": true,
+      "used_url": "https://ys.cxkjg.cn/api/provide/tvbox",
+      "error": null
+    },
+    {
+      "id": "zhuiju_6ee3abaf",
+      "name": "影仓",
+      "ok": false,
+      "used_url": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "id": "zhuiju_8236b8ce",
+      "name": "伦理接口",
+      "ok": true,
+      "used_url": "http://47.96.82.41:5188/rose/18/xgg.json",
+      "error": null
+    },
+    {
+      "id": "zhuiju_b77cb2f3",
+      "name": "无名",
+      "ok": true,
+      "used_url": "https://6800.kstore.vip/fish.json",
+      "error": null
+    },
+    {
+      "id": "zhuiju_c924d24a",
+      "name": "小盒子",
+      "ok": false,
+      "used_url": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     }
   ]
 }

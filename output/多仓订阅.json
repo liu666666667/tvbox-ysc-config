@@ -107,6 +107,18 @@
     {
       "name": "dxawi",
       "url": "https://gh-proxy.org/https://raw.githubusercontent.com/liu666666667/tvbox-ysc-config/main/output/dxawi.json"
+    },
+    {
+      "name": "创享影视",
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/liu666666667/tvbox-ysc-config/main/output/zhuiju_0a3780c6.json"
+    },
+    {
+      "name": "伦理接口",
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/liu666666667/tvbox-ysc-config/main/output/zhuiju_8236b8ce.json"
+    },
+    {
+      "name": "无名",
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/liu666666667/tvbox-ysc-config/main/output/zhuiju_b77cb2f3.json"
     }
   ]
 }
