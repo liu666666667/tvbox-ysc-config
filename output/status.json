@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05 11:34:24",
+  "updated_at": "2026-11-05 16:57:09",
   "repo": "liu666666667/tvbox-ysc-config",
   "sources": [
     {
@@ -35,7 +35,7 @@
       "name": "肥猫",
       "ok": true,
       "used_url": "(缓存)",
-      "error": "(\"Connection broken: ConnectionResetError(104, 'Connection reset by peer')\", ConnectionResetError(104, 'Connection reset by peer'))",
+      "error": "Expecting value: line 1 column 1 (char 0)",
       "cached": true
     },
     {
@@ -99,9 +99,8 @@
       "id": "shiguang",
       "name": "拾光多仓",
       "ok": true,
-      "used_url": "(缓存)",
-      "error": "502 Server Error: Bad Gateway for url: http://xmbjm.fh4u.org/dc.txt",
-      "cached": true
+      "used_url": "http://xmbjm.fh4u.org/dc.txt",
+      "error": null
     },
     {
       "id": "tinghao",

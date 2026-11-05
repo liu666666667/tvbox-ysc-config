@@ -12,7 +12,7 @@
 ## 一、源可用性状态
 
 <!-- STATUS_START -->
-> 🔄 最近更新：2026-11-05 11:34:24（北京时间） · 成功 **30/41** 个源
+> 🔄 最近更新：2026-11-05 16:57:09（北京时间） · 成功 **30/41** 个源
 
 | 配置源 | 状态 | 使用地址 |
 | --- | --- | --- |
@@ -29,7 +29,7 @@
 | 4K小盒子 | ✅ 成功 | `http://xhztv.top/4k.json` |
 | 小盒子单仓 | ✅ 成功 | `http://xhztv.top/xhz` |
 | 小盒子多仓 | ✅ 成功 | `http://xhztv.top/dc` |
-| 拾光多仓 | 📦 缓存 | 上次成功配置（本次更新未抓到，沿用缓存） |
+| 拾光多仓 | ✅ 成功 | `http://xmbjm.fh4u.org/dc.txt` |
 | 挺好分享多仓 | ✅ 成功 | `http://ztha.top/TVBox/GYCK.json` |
 | 小鱼干 | ✅ 成功 | `http://xhztv.top/dc/小鱼干/api.json` |
 | 网络接口 | ❌ 失败 | Expecting value: line 1 column 1 (char 0) |
