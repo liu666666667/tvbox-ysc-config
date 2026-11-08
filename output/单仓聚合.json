@@ -21609,7 +21609,17 @@
       "ext": "NewGrV2"
     },
     {
-      "name": "📦①线┃秒播",
+      "name": "📦师兄┃APP",
+      "key": "AppV7Dsx",
+      "type": 3,
+      "api": "csp_AppV7Amns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "AppV7Dsx"
+    },
+    {
+      "name": "📦浮舟┃APP",
       "key": "AppV7Fz",
       "type": 3,
       "api": "csp_AppV7Amns",
@@ -21619,7 +21629,7 @@
       "ext": "AppV7Fz"
     },
     {
-      "name": "📦②线┃秒播",
+      "name": "📦星野┃APP",
       "key": "AppV7Xy",
       "type": 3,
       "api": "csp_AppV7Amns",
@@ -21629,7 +21639,7 @@
       "ext": "AppV7Xy"
     },
     {
-      "name": "📦③线┃秒播",
+      "name": "📦织锦┃APP",
       "key": "AppV7Zjdr",
       "type": 3,
       "api": "csp_AppV7Amns",
@@ -21639,7 +21649,7 @@
       "ext": "AppV7Zjdr"
     },
     {
-      "name": "📦④线┃秒播",
+      "name": "📦玄珠┃APP",
       "key": "AppV7Xyz",
       "type": 3,
       "api": "csp_AppV7Amns",
@@ -21649,7 +21659,7 @@
       "ext": "AppV7Xyz"
     },
     {
-      "name": "📦⑤线┃秒播",
+      "name": "📦衔梦┃APP",
       "key": "AppV7Xnm",
       "type": 3,
       "api": "csp_AppV7Amns",
@@ -21659,7 +21669,7 @@
       "ext": "AppV7Xnm"
     },
     {
-      "name": "📦⑥线┃秒播",
+      "name": "📦鸣泉┃APP",
       "key": "AppV7Mtq",
       "type": 3,
       "api": "csp_AppV7Amns",
@@ -21669,7 +21679,7 @@
       "ext": "AppV7Mtq"
     },
     {
-      "name": "📦⑦线┃秒播",
+      "name": "📦琳琅┃APP",
       "key": "AppV7Llq",
       "type": 3,
       "api": "csp_AppV7Amns",
@@ -21679,7 +21689,7 @@
       "ext": "AppV7Llq"
     },
     {
-      "name": "📦⑧线┃秒播",
+      "name": "📦衔石┃APP",
       "key": "AppV7Xsz",
       "type": 3,
       "api": "csp_AppV7Amns",
@@ -21689,7 +21699,7 @@
       "ext": "AppV7Xsz"
     },
     {
-      "name": "📦⑨线┃秒播",
+      "name": "📦星海┃APP",
       "key": "AppV7Xhr",
       "type": 3,
       "api": "csp_AppV7Amns",
@@ -21697,16 +21707,6 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "AppV7Xhr"
-    },
-    {
-      "name": "📦师兄┃秒播",
-      "key": "AppV7Dsx",
-      "type": 3,
-      "api": "csp_AppV7Amns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "AppV7Dsx"
     },
     {
       "name": "☁️花卷┃4K",
@@ -23035,13 +23035,14 @@
     },
     {
       "key": "js豆瓣1",
-      "name": "豆瓣 | 精选",
+      "name": "🔄请先点击👇【网盘配置 ● 享受4K画质】",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/douban.js",
       "searchable": 0,
       "quickSearch": 0,
-      "filterable": 0
+      "filterable": 0,
+      "jar": "https://gitee.com/starlinkapi/pan/raw/master/jar/popup.jar?v=25"
     },
     {
       "key": "吃瓜",

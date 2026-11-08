@@ -3,13 +3,14 @@
   "sites": [
     {
       "key": "js豆瓣1",
-      "name": "豆瓣 | 精选",
+      "name": "🔄请先点击👇【网盘配置 ● 享受4K画质】",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/douban.js",
       "searchable": 0,
       "quickSearch": 0,
-      "filterable": 0
+      "filterable": 0,
+      "jar": "https://gitee.com/starlinkapi/pan/raw/master/jar/popup.jar?v=25"
     },
     {
       "key": "吃瓜",
