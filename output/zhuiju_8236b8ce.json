@@ -1,15 +1,14 @@
 {
   "spider": "https://gitee.com/starlinkapi/jar/raw/master/jar/starlink.jar",
+  "wallpaper": "https://wp.upx8.com/api.php",
+  "warningText": "请先配置网盘，可以观看4K画质",
   "sites": [
     {
-      "key": "js豆瓣1",
+      "key": "豆瓣",
       "name": "🔄请先点击👇【网盘配置 ● 享受4K画质】",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/douban.js",
+      "api": "csp_Douban",
       "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
       "jar": "https://gitee.com/starlinkapi/pan/raw/master/jar/popup.jar?v=25"
     },
     {
