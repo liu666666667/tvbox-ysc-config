@@ -1,34 +1,38 @@
 {
-  "updated_at": "2026-11-12 17:12:14",
+  "updated_at": "2026-11-13 05:21:04",
   "repo": "liu666666667/tvbox-ysc-config",
   "sources": [
     {
       "id": "x4_update",
       "name": "X4更新专用接口",
       "ok": true,
-      "used_url": "https://0.12yue.de5.net/0/666",
-      "error": null
+      "used_url": "(缓存)",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "cached": true
     },
     {
       "id": "x4_pro",
       "name": "X4菠菜pro",
       "ok": true,
-      "used_url": "https://0.12yue.de5.net/5/x4pro.json",
-      "error": null
+      "used_url": "(缓存)",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "cached": true
     },
     {
       "id": "x4_yuan",
       "name": "X4菠菜园",
       "ok": true,
-      "used_url": "https://0.12yue.de5.net/5/x4.json",
-      "error": null
+      "used_url": "(缓存)",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "cached": true
     },
     {
       "id": "x4_kids",
       "name": "X4少儿频道",
       "ok": true,
-      "used_url": "https://0.12yue.de5.net/5/tv少儿.json",
-      "error": null
+      "used_url": "(缓存)",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "cached": true
     },
     {
       "id": "feimao",
@@ -162,8 +166,9 @@
       "id": "fenxiangzhe",
       "name": "分享者",
       "ok": true,
-      "used_url": "https://ghproxy.net/https://raw.githubusercontent.com/maoystv/6/main/001.json",
-      "error": null
+      "used_url": "(缓存)",
+      "error": "HTTPSConnectionPool(host='ghproxy.net', port=443): Max retries exceeded with url: /https://raw.githubusercontent.com/maoystv/6/main/001.json (Caused by NewConnectionError(\"HTTPSConnection(host='ghproxy.net', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+      "cached": true
     },
     {
       "id": "gaotianliuyun",
