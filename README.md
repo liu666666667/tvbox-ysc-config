@@ -12,13 +12,13 @@
 ## 一、源可用性状态
 
 <!-- STATUS_START -->
-> 🔄 最近更新：2026-11-13 05:21:04（北京时间） · 成功 **30/41** 个源
+> 🔄 最近更新：2026-11-13 17:03:50（北京时间） · 成功 **30/41** 个源
 
 | 配置源 | 状态 | 使用地址 |
 | --- | --- | --- |
 | X4更新专用接口 | 📦 缓存 | 上次成功配置（本次更新未抓到，沿用缓存） |
-| X4菠菜pro | 📦 缓存 | 上次成功配置（本次更新未抓到，沿用缓存） |
-| X4菠菜园 | 📦 缓存 | 上次成功配置（本次更新未抓到，沿用缓存） |
+| X4菠菜pro | ✅ 成功 | `https://0.12yue.de5.net/5/x4pro.json` |
+| X4菠菜园 | ✅ 成功 | `https://0.12yue.de5.net/5/x4.json` |
 | X4少儿频道 | 📦 缓存 | 上次成功配置（本次更新未抓到，沿用缓存） |
 | 肥猫 | 📦 缓存 | 上次成功配置（本次更新未抓到，沿用缓存） |
 | 饭太硬 | ❌ 失败 | Expecting value: line 1 column 1 (char 0) |
@@ -38,7 +38,7 @@
 | 香雅情 | ✅ 成功 | `https://gh-proxy.com/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json` |
 | 天微多仓 | ❌ 失败 | 404 Client Error: Not Found for url: https://tvkj.top/DC.txt |
 | 无邪 | ✅ 成功 | `https://gh-proxy.com/https://raw.githubusercontent.com/wxrjck/-YSC-/main/yx.txt` |
-| 分享者 | 📦 缓存 | 上次成功配置（本次更新未抓到，沿用缓存） |
+| 分享者 | ✅ 成功 | `https://ghproxy.net/https://raw.githubusercontent.com/maoystv/6/main/001.json` |
 | 高天流云 | ✅ 成功 | `https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json` |
 | 俊佬 | ✅ 成功 | `http://home.jundie.top:81/top98.json` |
 | fastly-jsdelivr | ✅ 成功 | `https://fastly.jsdelivr.net/gh/liu673cn/box@main/m.json` |

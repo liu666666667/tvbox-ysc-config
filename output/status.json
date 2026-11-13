@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13 05:21:04",
+  "updated_at": "2026-11-13 17:03:50",
   "repo": "liu666666667/tvbox-ysc-config",
   "sources": [
     {
@@ -14,17 +14,15 @@
       "id": "x4_pro",
       "name": "X4菠菜pro",
       "ok": true,
-      "used_url": "(缓存)",
-      "error": "Expecting value: line 1 column 1 (char 0)",
-      "cached": true
+      "used_url": "https://0.12yue.de5.net/5/x4pro.json",
+      "error": null
     },
     {
       "id": "x4_yuan",
       "name": "X4菠菜园",
       "ok": true,
-      "used_url": "(缓存)",
-      "error": "Expecting value: line 1 column 1 (char 0)",
-      "cached": true
+      "used_url": "https://0.12yue.de5.net/5/x4.json",
+      "error": null
     },
     {
       "id": "x4_kids",
@@ -166,9 +164,8 @@
       "id": "fenxiangzhe",
       "name": "分享者",
       "ok": true,
-      "used_url": "(缓存)",
-      "error": "HTTPSConnectionPool(host='ghproxy.net', port=443): Max retries exceeded with url: /https://raw.githubusercontent.com/maoystv/6/main/001.json (Caused by NewConnectionError(\"HTTPSConnection(host='ghproxy.net', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
-      "cached": true
+      "used_url": "https://ghproxy.net/https://raw.githubusercontent.com/maoystv/6/main/001.json",
+      "error": null
     },
     {
       "id": "gaotianliuyun",
