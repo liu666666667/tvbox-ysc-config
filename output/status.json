@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13 17:03:50",
+  "updated_at": "2026-11-14 04:48:12",
   "repo": "liu666666667/tvbox-ysc-config",
   "sources": [
     {
@@ -21,8 +21,9 @@
       "id": "x4_yuan",
       "name": "X4菠菜园",
       "ok": true,
-      "used_url": "https://0.12yue.de5.net/5/x4.json",
-      "error": null
+      "used_url": "(缓存)",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "cached": true
     },
     {
       "id": "x4_kids",
