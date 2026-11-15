@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15 02:59:37",
+  "updated_at": "2026-11-15 16:48:57",
   "repo": "liu666666667/tvbox-ysc-config",
   "sources": [
     {
@@ -132,7 +132,7 @@
       "name": "虎斑",
       "ok": false,
       "used_url": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "error": "HTTPConnectionPool(host='103.205.254.65', port=25252): Read timed out. (read timeout=15)"
     },
     {
       "id": "dongli",

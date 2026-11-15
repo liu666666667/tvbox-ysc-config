@@ -12,7 +12,7 @@
 ## 一、源可用性状态
 
 <!-- STATUS_START -->
-> 🔄 最近更新：2026-11-15 02:59:37（北京时间） · 成功 **30/41** 个源
+> 🔄 最近更新：2026-11-15 16:48:57（北京时间） · 成功 **30/41** 个源
 
 | 配置源 | 状态 | 使用地址 |
 | --- | --- | --- |
@@ -33,7 +33,7 @@
 | 挺好分享多仓 | ✅ 成功 | `http://ztha.top/TVBox/GYCK.json` |
 | 小鱼干 | ✅ 成功 | `http://xhztv.top/dc/小鱼干/api.json` |
 | 网络接口 | ❌ 失败 | Expecting value: line 1 column 1 (char 0) |
-| 虎斑 | ❌ 失败 | Expecting value: line 1 column 1 (char 0) |
+| 虎斑 | ❌ 失败 | HTTPConnectionPool(host='103.205.254.65', port=25252): Re... |
 | 东篱 | ❌ 失败 | 返回内容不是 TVBox 配置（缺少 sites/spiders/lives 或 urls 字段） |
 | 香雅情 | ✅ 成功 | `https://gh-proxy.com/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json` |
 | 天微多仓 | ❌ 失败 | 404 Client Error: Not Found for url: https://tvkj.top/DC.txt |
